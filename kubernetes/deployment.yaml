@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: ghcr.io/courzagasti/kubernetes-gitops-lab:cf83c725f1b4cdd94eb535032d510eccde000d6b
+          image: ghcr.io/courzagasti/kubernetes-gitops-lab:73daf5ba76f544a6d3f17f3377a5d734cdc848d3
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
